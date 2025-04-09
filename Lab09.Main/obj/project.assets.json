@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\caleb\\my-code-dir-2\\lab-9-polymorphic-drawing-starlink200\\Lab09.Main\\Lab09.Main.csproj",
+      "projectUniqueName": "C:\\Users\\caleb\\my-code-dir-2\\lab-10-polymorphic-drawing-factory-starlink200\\Lab09.Main\\Lab09.Main.csproj",
       "projectName": "Lab09.Main",
-      "projectPath": "C:\\Users\\caleb\\my-code-dir-2\\lab-9-polymorphic-drawing-starlink200\\Lab09.Main\\Lab09.Main.csproj",
+      "projectPath": "C:\\Users\\caleb\\my-code-dir-2\\lab-10-polymorphic-drawing-factory-starlink200\\Lab09.Main\\Lab09.Main.csproj",
       "packagesPath": "C:\\Users\\caleb\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\caleb\\my-code-dir-2\\lab-9-polymorphic-drawing-starlink200\\Lab09.Main\\obj\\",
+      "outputPath": "C:\\Users\\caleb\\my-code-dir-2\\lab-10-polymorphic-drawing-factory-starlink200\\Lab09.Main\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\caleb\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -51,8 +51,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\caleb\\my-code-dir-2\\lab-9-polymorphic-drawing-starlink200\\Lab09\\Lab09.csproj": {
-              "projectPath": "C:\\Users\\caleb\\my-code-dir-2\\lab-9-polymorphic-drawing-starlink200\\Lab09\\Lab09.csproj"
+            "C:\\Users\\caleb\\my-code-dir-2\\lab-10-polymorphic-drawing-factory-starlink200\\Lab09\\Lab09.csproj": {
+              "projectPath": "C:\\Users\\caleb\\my-code-dir-2\\lab-10-polymorphic-drawing-factory-starlink200\\Lab09\\Lab09.csproj"
             }
           }
         }

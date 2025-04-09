@@ -3,6 +3,11 @@ using Lab09;
 
 public class CircleFactory : IGraphic2DFactory
 {
+    public string Name
+    {
+        get{return Name;}
+        set{Name = "Circle";}
+    }
     public IGraphic2D Create()
     {
         int xCoordinate;

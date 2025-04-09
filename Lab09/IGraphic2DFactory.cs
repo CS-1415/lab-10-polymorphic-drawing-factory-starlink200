@@ -2,11 +2,8 @@ using Lab09;
 
 public interface IGraphic2DFactory
 {
-    //readonly string Name {get; set;}
+    public string Name {get;}
     
-    public IGraphic2D Create()
-    {
-        //dummy return value to prevent compiler from getting upset
-        return new Circle(1,1,4);
-    }
+    public IGraphic2D Create();
+
 }

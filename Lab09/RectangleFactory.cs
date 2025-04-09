@@ -7,7 +7,6 @@ public class RectangleFactory : IGraphic2DFactory
     {
         get{return Name;}
         set{Name = "Rectangle";}
-
     }
 
     public IGraphic2D Create()
@@ -24,7 +23,7 @@ public class RectangleFactory : IGraphic2DFactory
         height = (int)(decimal) ValidateAnswer();
         Console.WriteLine("Please provide the width of this rectangle");
         width = ValidateAnswer();
-        return new Rectangle(xCoordinate, yCoordinate, width, height);
+        return new Rectangle(xCoordinate, yCoordinate, width, height);//{ ForegroundColor = ConsoleColor.DarkGreen, DisplayChar = '#' };
     }
 
     public int ValidateAnswer()

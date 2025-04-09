@@ -7,5 +7,5 @@ public interface IGraphic2D
 
     // draws the graphic on the screen; return true if successful
     bool Display();
-
+    
 }

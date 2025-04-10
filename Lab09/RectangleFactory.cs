@@ -1,12 +1,13 @@
+using System.Reflection.Metadata.Ecma335;
 using System.Security.Cryptography.X509Certificates;
 using Lab09;
 
 public class RectangleFactory : IGraphic2DFactory
 {
+
     public string Name
     {
-        get{return Name;}
-        set{Name = "Rectangle";}
+        get{return "Rectangle";}
     }
 
     public IGraphic2D Create()

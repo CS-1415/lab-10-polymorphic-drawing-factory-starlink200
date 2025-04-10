@@ -5,8 +5,7 @@ public class CircleFactory : IGraphic2DFactory
 {
     public string Name
     {
-        get{return Name;}
-        set{Name = "Circle";}
+        get{return "Circle";}
     }
     public IGraphic2D Create()
     {

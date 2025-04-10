@@ -27,11 +27,6 @@ internal class Program
                 case 2:
                     IGraphic2D graphic2D = AddGraphic(availableShapeTypes);
                     builtShapes.Add(graphic2D);
-                    foreach(var shape in builtShapes)
-                    {
-                        Console.WriteLine(shape);
-                    }
-                    Console.ReadKey();
                     break;
                 case 3:
                     int index = RemoveGraphic(builtShapes);
@@ -66,7 +61,7 @@ internal class Program
         Console.WriteLine("What kind of shape would you like to add?");
         for(int i = 0; i < options.Count ; i++)
         {
-            Console.WriteLine($"{i+1}: {options[i]}");
+            Console.WriteLine($"{i+1}: {options[i].Name}");
         }
         num = ValidateAnswer(options.Count, 1);
         return options[num - 1].Create();
